@@ -1,0 +1,1155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1920px;
+}
+
+.two {
+    width: 100%;
+}
+
+.tree {
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 0 20px 20px;
+}
+
+.img-1 {
+    width: 60px;
+}
+
+.top-1 {
+    display: flex;
+    width: 190px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.top-1-1 {
+    display: block;
+}
+
+.img-2 {
+    width: 17px;
+    height: 17px;
+}
+
+.top-1-p {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.line {
+    border: 0.5px solid black;
+    height: 25px;
+    background-color: black;
+}
+
+.top-2 {
+    display: block;
+}
+
+.top-2-1 {
+    display: flex;
+    column-gap: 10px;
+}
+
+.top-2-a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-3 {
+    padding: 10px 22px;
+    background-color: #E17F37;
+    max-width: 160px;
+}
+
+.top-3-a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-big {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.black-line {
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+
+.line-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 150px;
+}
+
+li {
+    list-style: none;
+}
+
+.line-a {
+    text-decoration: none;
+    color: white;
+}
+
+.middle {
+    max-width: 1920px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(wix-img/Rectangle%201logo-7.png)
+}
+
+.middle-div {
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 140px;
+    
+}
+
+.middle-h2 {
+    color: white;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 90%;
+}
+
+.middle-p {
+    color: white;
+    position: relative;
+    margin-top: 30px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.middle-div-1 {
+    text-align: center;
+    top: 115px;
+}
+
+.div-1-img {
+    width: 23px;
+}
+
+.div-1-img1 {
+    width: 15px;
+}
+
+.middle2-big {
+    max-width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 90px;
+    row-gap: 60px;
+    margin-top: 10px;
+}
+
+.middle2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F8F9;
+    width: 100%;
+    max-width: 1920px;
+    padding: 80px 0;
+}
+
+.middle2-p {
+    width: 410px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 22px;
+}
+
+.middle2-h3 {
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.middle2-1 {
+    display: flex;
+    width: 510px;
+    column-gap: 15px;
+    margin-top: 60px;
+}
+
+.middle2-img {
+    width: 70px;
+    height: 70px;
+}
+
+.line1 {
+    background-color: orange;
+    width: 250px;
+    height: 1px;
+    margin: 6px 0;
+}
+
+.middle3-big {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+
+.middle3 {
+    background-image: url("wix-img/Rectangle%20217logo-12.png");
+    height: 353px;
+    width: 100%;
+    max-width: 1170px;
+}
+
+.middle3-1 {
+    max-width: 1920px;
+    height: 353px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle3-small {
+    max-width: 300px;
+    width: 100%;
+}
+
+.middle3-4 {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 30px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.middle3-h3 {
+    color: white;
+    width: 100%;
+    max-width: 300px;
+}
+
+.middle3-img1 {
+    width: 170px;
+    top: 108px;
+    right: 330px;
+}
+
+.middle3-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle3-li {
+    list-style: none;
+    padding: 5px 25px;
+    background-color: #E17F37;
+    max-width: 140px;
+}
+
+.middle3-a {
+    text-decoration: none;
+    color: white;
+}
+
+.middle4 {
+    max-width: 1920px;
+    height: 325px;
+    position: relative;
+    background-image: url(wix-img/Rectangle%20143logo-14.png);
+    text-align: center;
+    padding: 0 30px;
+}
+
+.middle4-h3 {  
+    padding-top: 80px;
+}
+
+.middle4-img {
+    max-width: 800px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.middle5 {
+    padding: 80px 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle5-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle5-1 {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.middle5-top-img1 {
+    width: 20px;
+    height: 13px;
+}
+
+.middle5-top-img {
+    width: 30px;
+    height: 20px;
+}
+
+.middle5-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.bottom1 {
+    width: 100%;
+    max-width: 270px;
+    height: 100%;
+    padding: 20px;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+}
+
+.bottom1-img {
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+.bottom1-p {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.bottom1-1 {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 22px;
+    width: 100%;
+}
+
+.bottom1-h3-1 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.bottom1-h3 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: #BEBEBE;
+}
+
+.bottom1-2 {
+    border: 1px solid #E17F37;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bottom1-a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle5-end {
+    background: #E17F37;
+    width: 248px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.middle5-a {
+    text-decoration: none;
+    color: white;
+}
+
+.middle6 {
+    height: 100%;
+    background-image: url(wix-img/Rectangle%20143logo-14.png);
+    text-align: center;
+    padding: 80px 200px;
+    
+}
+
+.middle6-h2 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.middle6-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 60px;
+}
+
+.middle6-1 {
+    column-gap: 5px;
+    margin-top: 40px;
+}
+
+.middle7 {
+    padding: 80px 200px;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.middle7-h1 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.middle7-big {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.middle7-small {
+    display: flex;
+    width: 290px;
+    column-gap: 20px;
+    margin-top: 70px;
+}
+
+.middle-img {
+    width: 100%;
+}
+
+.small-img {
+    width: 40px;
+    height: 40px;
+}
+
+.small-p {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: initial;
+}
+
+.middle7-left {
+    display: block;
+}
+
+.middle7-middle {
+    margin-top: 70px;
+}
+
+.middle7-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle8 {
+    display: block;
+    padding: 20px 20px 200px 20px;
+    background: #F7F8F9;
+    max-width: 1920px;
+}
+
+.middle8-top {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+}
+
+.middle8-top1 {
+    width: 570px;
+}
+
+.middle8-p {
+    margin-top: 24px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.middle8-top1-img {
+    position: inherit;
+    max-width: 570px;
+    width: 100%;
+    top: -195px;
+    right: 0;
+}
+
+.middle8-top-img1 {
+    max-width: 570px;
+    width: 100%;
+}
+
+.middle8-top2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 95px;
+}
+
+.middle8-top3 {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+
+.one {
+    color: white;
+}
+
+.middle9 {
+    background: #242425;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 30px;
+    padding: 30px;
+}
+
+.middle9-right {
+    width: 500px;
+    position: relative;
+}
+
+.middle9-top1-img3 {
+    max-width: 420px;
+    max-height: 450px;
+    position: inherit;
+    top: -110px;
+    width: 100%;
+}
+
+.middle9-p {
+    position: absolute;
+    bottom: 10px;
+    margin-top: 24px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+footer {
+    background-image: url(wix-img/Rectangle%20126logo-29.png);
+    max-width: 1920px;
+    width: 100%;
+    display: block;
+    padding: 0 20px 200px;
+}
+
+.f-1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    max-width: 1920px;
+}
+
+.f-1-a {
+    text-decoration: none;
+}
+
+.f-1-line {
+    background: #AAAAAA;
+    height: 1px;
+    max-width: 1920px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.f-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    column-gap: 78px;
+    row-gap: 20px;
+}
+
+.f-2-1 {
+    display: block;
+}
+
+.f-2-1-1 {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.f-2-img {
+    width: 15px;
+    height: 15px;
+}
+
+.f-2-h4 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px; 
+}
+
+.f-3 {
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.f-3-1 {
+    width: 470px;
+}
+
+.f-3-p {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135%;
+}
+
+.f-3-p-p {
+    width: 100%;
+    max-width: 569px;
+}
+
+.f-3-2 {
+    display: block;
+    width: 570px;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+}
+
+.end-div {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 42px;
+    background: #E17F37;
+}
+
+.end-a {
+    text-decoration: none;
+    margin-left: 51px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .top {
+        flex-direction: column;
+    }
+    
+    .top1 {
+        text-align: center;
+    }
+    
+    .img-1 {
+        width: 80px;
+    }
+    
+    .top-big {
+        
+        margin-top: 25px;
+        margin-top: 25px;
+        column-gap: 10px;
+        justify-content: center;
+        grid-row-gap: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 30px;
+    }
+    
+    .top-1 {
+        width: 100%;
+    }
+    
+    .top-2 {
+        display: flex;
+        column-gap: 20px;
+    }
+    
+    .top-3 {
+        width: 160px;
+        margin-top: 25px;
+    }
+    
+    .line1 {
+        width: 100%;
+    }
+    
+    .line-ul {
+        flex-wrap: wrap;
+        column-gap: 60px;
+        grid-row-gap: 5px;
+        padding: 5px 10px;
+    }
+    
+    .middle-img {
+        height: 100%;
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .middle-div {
+        width: 100%;
+        position: initial;
+    }
+    
+    .middle-h2 {
+        width: 100%;
+    }
+    
+    .middle-p {
+        width: 100%;
+    }
+    
+    .middle2 {
+        padding: 10px;
+    }
+    
+    .middle2-img {
+        width: 100%;
+        height: 100%;
+        max-width: 40px;
+        max-height: 40px;
+    }
+    
+    .middle2-p {
+        width: 100%;
+    }
+    
+    .middle2-big {
+        text-align: -webkit-center;
+        display: block;
+    }
+    
+    .middle2-1 {
+        width: 100%;
+        max-width: 340px;
+    }
+    
+    .middle2-2 {
+        width: 100%;
+    }
+    
+    .middle3 {
+        padding: 0 20px;
+    }
+    
+    .middle3-1 {
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .middle3-img1 {
+        max-width: 170px;
+        max-height: 108px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .middle3-h3 {
+        left: 290px;
+    }
+    
+    .middle3-ul {
+        grid-row-gap: 16px;
+        flex-direction: column;
+        max-width: 140px;
+        width: 100%;
+        
+    }
+    
+    .middle4-img {
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .middle5 {
+        display: block;
+        padding: 15px 30px;
+        text-align: -webkit-center;
+    }
+    
+    .middle5-top-img {
+        width: 20px;
+        height: 12px;
+    }
+    
+    .middle5-top-img1 {
+        width: 15px;
+        height: 8px;
+    }
+    
+    .middle5-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row-gap: 80px;
+    }
+    
+    .bottom1 {
+        max-width: 200px;
+        width: 100%;
+    }
+    
+    .middle5-end {
+        margin: 25px 0;
+        max-width: 200px;
+        width: 100%;
+    }
+    
+    .middle6 {
+        height: 100%;
+        padding: 0;
+    }
+    
+    .middle6-h2 {
+        padding-top: 25px;
+    }
+    
+    .middle6-img {
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        grid-row-gap: 70px;
+    }
+    
+    .middle6-img1 {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .middle7 {
+        padding: 20px;
+        text-align: -webkit-center;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    
+    .middle-img1 {
+        max-width: 300px;
+    }
+    
+    .middle7-big {
+        max-width: 600px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .middle7-small {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .small-img {
+        max-height: 30px;
+        max-width: 30px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .small-p {
+        font-size: 15px;
+    }
+    
+    .middle7-right {
+        display: block;
+    }
+    
+    .middle7-h1 {
+        width: 100%;
+        max-width: 400px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .middle-img1 {
+        max-width: 300px;
+        width: 100%;
+    }
+    
+    .middle8 {
+        height: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .middle8-top {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .middle8-top1 {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .middle8-p {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    
+    .middle8-top1-img {
+        position: initial;
+        width: 100%;
+        max-width: 300px;
+        margin-top: 30px;
+    }
+    
+    .middle8-top2 {
+        display: block;
+        text-align: center;
+    }
+    
+    .middle8-top-img1 {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .middle8-top3 {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    .middle9 {
+        max-width: 600px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .middle9-right {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .middle9-p {
+        position: initial;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    .middle9-top1-img3 {
+        top: 0;
+    }
+    
+    footer {
+       padding: 0;
+       width: 100%;
+       max-width: 600px;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .f-1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 80px;
+        grid-row-gap: 20px;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .f-2 {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        padding: 10px;
+        column-gap: 80px;
+        grid-row-gap: 20px; 
+    }
+    
+    .f-2-1 {
+        width: 100%;
+        max-width: 180px;
+    }
+    
+    .f-3 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .f-3-1 {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .f-3-2 {
+        width: 100%;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    
+    .f-3-p-p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .end {
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .end-img {
+        width: 45px;
+    }
+    
+    .end-div {
+        width: 100%;
+        max-width: 120px;
+        max-height: 25px;
+        height: 100%;
+        padding: 10px 0;
+    }
+    
+    .end-a {
+        margin-left: 35px;
+        font-size: 13px;
+    }
+    
+    .line {
+        display: none;
+    }
+    
+}
+
+@media (min-width:601px) and (max-width: 1200px) {
+    .middle2 {
+        padding: 50px;
+    }
+    
+    .middle8-top1 {
+        width: 570px;
+        height: 610px;
+    }
+    
+    .middle8-top1-img {
+        max-width: 500px;
+        max-height: 500px;
+        top: -110px;
+    }
+    
+    .middle8-top-img1 {
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
